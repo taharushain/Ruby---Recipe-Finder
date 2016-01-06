@@ -2,6 +2,7 @@ require 'httparty'
 
 class Recipe
 	include HTTParty
+	ENV["FOOD2FORK_KEY"] = '60186583cd5acfb1458abcf9fa6d74a2'
 
 
 	key_value = ENV['FOOD2FORK_KEY']
